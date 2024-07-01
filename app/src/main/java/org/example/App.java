@@ -10,5 +10,9 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+
+        new Calculate().sumAB(2, 3);
+        new Calculate().sumA2B(1, 10);
+        new Calculate().sumOfoddAndevenA2B(1, 10);
     }
 }
