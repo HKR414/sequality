@@ -11,14 +11,15 @@ public class App {
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
 
-        float sumAB = new Calculate().sumAB(2, 3);
-        float aveAB = new Calculate().aveAB(sumAB);
+        Calculate calculate = new Calculate();
+        int sumAB = calculate.sumAB(2, 3);
+        float aveAB = calculate.aveAB(sumAB);
 
-        float sumA2B = new Calculate().sumA2B(1, 10);
-        float aveA2B = new Calculate().aveA2B(sumA2B, 1, 10);
+        int sumA2B = calculate.sumA2B(1, 10);
+        float aveA2B = calculate.aveA2B(sumA2B, 1, 10);
 
-        int odd = new Calculate().sumOfoddA2B(1, 10);
-        int even = new Calculate().sumOfevenA2B(1, 10);
+        int odd = calculate.sumOfoddA2B(1, 10);
+        int even = calculate.sumOfevenA2B(1, 10);
 
         System.out.println("Sum of 2 and 3 is " + sumAB + ". Average is " + aveAB + ".");
         System.out.println("Sum of 1 to 10 is " + sumA2B + ". Average is " + aveA2B + ".");
