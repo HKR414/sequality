@@ -13,10 +13,10 @@ public class App {
 
         Calculate calculate = new Calculate();
         int sumAB = calculate.sumAB(2, 3);
-        float aveAB = calculate.aveAB(sumAB);
+        double aveAB = calculate.aveAB(sumAB);
 
         int sumA2B = calculate.sumA2B(1, 10);
-        float aveA2B = calculate.aveA2B(sumA2B, 1, 10);
+        double aveA2B = calculate.aveA2B(sumA2B, 1, 10);
 
         int odd = calculate.sumOfoddA2B(1, 10);
         int even = calculate.sumOfevenA2B(1, 10);

@@ -10,7 +10,7 @@ public class CalculateTest {
   }
   @Test
   public void testAveAB(){
-    float expected = 2.5;
+    double expected = 2.5;
     assertEquals(expected, calculate.aveAB(5), 0.0);
   }
   @Test
@@ -20,7 +20,7 @@ public class CalculateTest {
   }
   @Test
   public void aveA2B(){
-    float expected = 5.5;
+    double expected = 5.5;
     assertEquals(expected, calculate.aveA2B(55, 1, 10), 0.0);
   }
   @Test

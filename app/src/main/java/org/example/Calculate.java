@@ -5,8 +5,8 @@ public class Calculate{
     return x + y;
   }
 
-  public float aveAB(int sum){
-    return (float)sum/2;
+  public double aveAB(int sum){
+    return (double)sum/2;
   }
 
   public int sumA2B(int a, int b){
@@ -17,8 +17,8 @@ public class Calculate{
     return sum;
   }
 
-  public float aveA2B(int sum, int a, int b){
-    return (float)sum / ((b - a) + 1);
+  public double aveA2B(int sum, int a, int b){
+    return (double)sum / ((b - a) + 1);
   }
 
   public int sumOfoddA2B(int a, int b){
